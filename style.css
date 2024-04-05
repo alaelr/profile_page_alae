@@ -1,0 +1,55 @@
+body {
+  background: linear-gradient(to right, red, pink);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  margin: 20px auto;
+  border: 1px solid white;
+  width: 50%;
+  text-align: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card a img, .veolia-image {
+  width: 60px;
+  height: auto;
+  margin: 0 50px;
+}
+
+.card h2 {
+  font-family: 'Redacted Mono', monospace;
+  color: #ED1C24;
+}
+
+.circle-image {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  display: block;
+  margin: auto;
+}
+
+.list-inline{
+  padding-left: 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+}
+ 
+.list-inline a{
+  padding: 0;
+  margin: 0;
+ 
+}
+ 
+.list-inline div i{
+  font-size: 50px;
+  padding-left: 0;
+}
